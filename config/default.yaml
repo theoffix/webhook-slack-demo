@@ -1,0 +1,6 @@
+slack:
+  webhook: 'https://hooks.slack.com/services/your/webhook/url'
+  defaults:
+    username: 'visitor bot'
+    channel: '#general'
+    icon_emoji: ':robot_face:'

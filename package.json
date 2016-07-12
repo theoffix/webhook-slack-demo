@@ -1,0 +1,23 @@
+{
+  "name": "webhook-to-slack",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "standard -v | snazzy",
+    "dev": "NODE_ENV=development DEBUG=receiver:* nodemon ./bin/www",
+    "start": "NODE_ENV=production DEBUG=receiver:* node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "config": "^1.21.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "js-yaml": "^3.6.1",
+    "morgan": "~1.6.1",
+    "slack-webhook": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2",
+    "snazzy": "^4.0.0",
+    "standard": "^7.1.2"
+  }
+}
